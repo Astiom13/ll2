@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
     },
     TextInput: {
         borderWidth: 7,
-        borderColor: '#000000'
+        borderColor: '#000000',
+        textShadowColor: '#000080'
     }
 })
