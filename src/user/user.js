@@ -1,15 +1,16 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { TextInput, View, Text, StyleSheet } from 'react-native'
+import { TextInput, View, Text, StyleSheet, Button } from 'react-native'
 
 export const User = () => {
    return(
 
         <View>
             <Text style={styles.Text}> Hello user "...", create you cupping now</Text>
-            <Text style={styles.Text}> create you name </Text>
             <TextInput style={styles.TextInput} />
-    
+            <Button style={slyles.Button}
+            title="Create new cupping"
+            />
         </View>
    );
 }
@@ -26,5 +27,9 @@ const styles = StyleSheet.create({
         borderWidth: 7,
         borderColor: '#000000',
         textShadowColor: '#000080'
+    },
+    Button: {
+        color: '#0000ff',
+        alignItems: 'center'
     }
 })

@@ -6,7 +6,7 @@ export const Password = () => {
     return (
         <View style={styles.View}>
             <Text style={styles.Text}>
-             Enter your Password
+                 Enter your Password     
                 <TextInput style={styles.TextInput} />
                 </Text>
         </View>
@@ -15,8 +15,9 @@ export const Password = () => {
 const styles = StyleSheet.create({
     Text:{
     color: '#f0f8ff',
-    padding: 15,
-    paddingEnd: 15
+    justifyContent: 'flex-start',
+    alignItems: 'center'
+    
     },
     TextInput: {
         backgroundColor: '#f0f8ff',
