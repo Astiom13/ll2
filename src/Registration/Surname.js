@@ -6,7 +6,7 @@ export const EntereUsersurname = () => {
         <View style={styles.View}>
             <Text style={styles.Text}>
                Enter your surname
-                <TextInput style={styles.TextInput} />
+             <TextInput style={styles.TextInput} />
             </Text>
         </View>
             )

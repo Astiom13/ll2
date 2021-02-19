@@ -27,7 +27,8 @@ return (
 
 const styles = StyleSheet.create ({
     View: {
-       
+
+    
     },
     Button: {
         color: '#0000ff'
