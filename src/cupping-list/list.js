@@ -6,4 +6,10 @@ export const List = () => {
     return (
     <View> </View>
     )
-}
+};
+
+const styles = StyleSheet.create ({
+    View: {
+        
+    }
+})
