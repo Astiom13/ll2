@@ -7,7 +7,9 @@ import { EnterEmail } from './Email';
 import { Password } from './Passvord';
 import { NavigationContainer } from '@react-navigation/native';
 
+const useState = () => {
 
+};
 
 export const Registration = () => {
 return (
@@ -17,18 +19,18 @@ return (
     <EnterEmail />
     <Password />
     <Button style={styles.Button}
-    title="continue"
-    onPress={() => navigation.navigate('user')}
+    title="Continue"
+    onPress={() => Navigation.navigation ('./user/user.js')}
     />
     </View>
 )
 
 };
 
+
 const styles = StyleSheet.create ({
     View: {
-
-    
+       
     },
     Button: {
         color: '#0000ff'
