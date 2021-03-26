@@ -7,8 +7,8 @@ import { EnterEmail } from './Email';
 import { Password } from './Passvord';
 import { NavigationContainer } from '@react-navigation/native';
 
-const useState = () => {
-
+const useState = (Registration) => {    
+    
 };
 
 export const Registration = () => {

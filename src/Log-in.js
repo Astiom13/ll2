@@ -14,7 +14,7 @@ return (
         /> 
         <Button 
         title="login"
-        onPress={()=> navigator.appName ('user') }
+        onPress={()=> navigator.Navigation ('user') }
         />
     </Text>
 </View>

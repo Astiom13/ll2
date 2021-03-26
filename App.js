@@ -10,7 +10,7 @@ import { User } from './src/user/user';
 export default function App() {
   return (
  <View style={styles.container}>
-  <User />
+  <Registration />
  </View>
   );
 }

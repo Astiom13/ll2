@@ -11,10 +11,8 @@ export const User = () => {
             <TextInput style={styles.TextInput} />
             <Button 
             title="Create new cupping"
-            onePress ={ () => {
-                return console.log('click');
-            } }
-            />
+            onePress ={}
+            /> 
         </View>
    );
 }
