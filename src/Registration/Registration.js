@@ -5,11 +5,12 @@ import { EnterUsername } from './Name';
 import { EntereUsersurname } from './Surname';
 import { EnterEmail } from './Email';
 import { Password } from './Passvord';
-import { NavigationContainer } from '@react-navigation/native';
 
-const useState = (Registration) => {    
-    
-};
+function useState(Registration) {
+    return {
+
+    }
+}
 
 export const Registration = () => {
 return (
@@ -18,7 +19,7 @@ return (
     <EntereUsersurname />
     <EnterEmail />
     <Password />
-    <Button style={styles.Button}
+    <Button style={styles.Button}   
     title="Continue"
     onPress={() => Navigation.navigation ('./user/user.js')}
     />
